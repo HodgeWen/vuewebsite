@@ -1,6 +1,6 @@
 module.exports = {
   // head左侧标题
-  title: '温宏杰的前端笔记',
+  title: 'WHJ前端知识库',
   description: '每天学到一点',
 
   markdown: {
@@ -16,7 +16,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
+      { text: 'Code Guide', link: '/guide/' },
       { text: 'About', link: '/about/' },
       { text: 'GitHub', link: 'https://github.com/wenhongjie' },
     ],
