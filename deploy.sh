@@ -13,7 +13,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# git push -f https://${access_token}@github.com/wenhongjie/wenhongjie.github.io.git master
-git push -f git@github.com:wenhongjie/wenhongjie.github.io.git master
+git config --local user.name "whj"
+git config --local user.email "emailwen@qq.com"
+
+git push -f https://${access_token}@github.com/wenhongjie/wenhongjie.github.io.git master
+# git push -f git@github.com:wenhongjie/wenhongjie.github.io.git master
 
 cd -
