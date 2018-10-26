@@ -1,6 +1,6 @@
 module.exports = {
   // head左侧标题
-  title: 'Web开发',
+  title: '温宏杰的个人分享',
   description: '每天学到一点',
 
   markdown: {
@@ -17,7 +17,7 @@ module.exports = {
     nav: [
       { text: 'Learn', 
         items: [
-          { text: '前端优化', link: '/optimize/' }
+          { text: '前端优化', link: '/learn/optimize/' }
         ]
       },
       { text: 'Code Guide', link: '/codeguide/' },
@@ -25,24 +25,31 @@ module.exports = {
       { text: 'Resource', link: '/resource/' },
       { text: 'GitHub', link: 'https://github.com/wenhongjie' },
     ],
-    sidebarDepth: 2,
     sidebar: {
-      '/learn/': [
-        '',
-        'hi'
+      // 导航栏学习模块
+      '/learn/optimize/': [
+        '', // learn/readme 
       ],
+      // 导航栏代码规范模块
       '/codeguide/': [
-        ''
+        '',
+        'css'
       ],
+      // 关于
       '/about/': [
         ''
       ],
-      '/': [
-        '',
-        'learn',
-        'codeguide',
-        'about'
+      // 资源
+      '/resource/': [
+        ''
       ],
+      // 
+      // '/': [
+      //   // '',
+      //   // 'learn',
+      //   // 'codeguide',
+      //   // 'about'
+      // ],
     },
 
     lastUpdated: '最后更新于',
