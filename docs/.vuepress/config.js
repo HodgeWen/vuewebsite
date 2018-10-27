@@ -30,6 +30,7 @@ module.exports = {
       // 导航栏学习模块
       '/learn/optimize/': [
         '', // learn/readme 
+        'webpack'
       ],
       // 导航栏代码规范模块
       '/codeguide/': [
@@ -45,12 +46,12 @@ module.exports = {
         ''
       ],
       // 
-      // '/': [
-      //   // '',
-      //   // 'learn',
-      //   // 'codeguide',
-      //   // 'about'
-      // ],
+      '/': [
+        '',
+        'learn',
+        'codeguide',
+        'about'
+      ],
     },
 
     lastUpdated: '最后更新于',
