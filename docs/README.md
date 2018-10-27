@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: 立即进入 →
-actionLink: /learn/
+actionLink: /learn/optimize/
 features:
 - title: 学习 
   details: 在开发中能学到什么，在项目优化中能学到什么，在生活中能学到什么

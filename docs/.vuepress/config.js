@@ -14,6 +14,7 @@ module.exports = {
     }]
   ],
   themeConfig: {
+    displayAllHeaders: true,
     nav: [
       { text: 'Learn', 
         items: [
@@ -33,7 +34,7 @@ module.exports = {
       // 导航栏代码规范模块
       '/codeguide/': [
         '',
-        'css'
+        'guidecss'
       ],
       // 关于
       '/about/': [
