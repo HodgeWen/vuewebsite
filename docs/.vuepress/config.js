@@ -35,7 +35,8 @@ module.exports = {
       // 导航栏代码规范模块
       '/codeguide/': [
         '',
-        'guidecss'
+        'guidecss',
+        'guidejs'
       ],
       // 关于
       '/about/': [
@@ -44,16 +45,8 @@ module.exports = {
       // 资源
       '/resource/': [
         ''
-      ],
-      // 
-      '/': [
-        '',
-        'learn',
-        'codeguide',
-        'about'
-      ],
+      ]
     },
-
     lastUpdated: '最后更新于',
   }
 }
