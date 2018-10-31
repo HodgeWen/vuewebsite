@@ -6,7 +6,6 @@ module.exports = {
   markdown: {
     lineNumbers: true // 为代码块增加行号
   },
-
   head: [
     ['link', {
       rel: 'icon',
@@ -18,7 +17,8 @@ module.exports = {
     nav: [
       { text: 'Learn', 
         items: [
-          { text: '前端优化', link: '/learn/optimize/' }
+          { text: '前端优化', link: '/learn/optimize/' },
+          { text: '实用工具', link: '/learn/utils/' }
         ]
       },
       { text: 'Code Guide', link: '/codeguide/' },
@@ -31,6 +31,10 @@ module.exports = {
       '/learn/optimize/': [
         '', // learn/readme 
         'webpack'
+      ],
+      '/learn/utils/': [
+        '', // utils/readme 
+        'vscode'
       ],
       // 导航栏代码规范模块
       '/codeguide/': [
