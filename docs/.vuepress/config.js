@@ -18,7 +18,8 @@ module.exports = {
       { text: 'Learn', 
         items: [
           { text: '前端优化', link: '/learn/optimize/' },
-          { text: '实用工具', link: '/learn/utils/' }
+          { text: '实用工具', link: '/learn/utils/' },
+          { text: '设计模式', link: '/learn/pattern/' },
         ]
       },
       { text: 'Code Guide', link: '/codeguide/' },
@@ -34,7 +35,9 @@ module.exports = {
       ],
       '/learn/utils/': [
         '', // utils/readme 
-        'vscode'
+      ],
+      '/learn/pattern/': [
+        '', // pattern/readme 
       ],
       // 导航栏代码规范模块
       '/codeguide/': [
