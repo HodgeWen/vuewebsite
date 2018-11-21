@@ -81,5 +81,18 @@ document.querySelector('ul').addEventListener('click', e => {
 })
 ```
 
-## 2.装饰者模式 
-装饰者是一种渐进模式,通过为某个对象扩展特性来使其做更加强大的事情，比如jQuery插件等等  
+## 2.迭代器模式
+es中内置了很多迭代函数，比如forEach,map,filter,some,reduce,every 
+在某种程度上来说，使用迭代函数可以完全放弃掉for循环了,实现给数组每项加1，比较以下代码
+``` js
+const arr = [1, 2, 3, 4]
+
+// 普通版本
+const arr1 = []
+for (let i = 0, len = arr.length;i < len; i++) {
+  arr1[i] = arr[i] + 1
+}
+// 函数版本
+const arr2 = arr.map(v => v + 1)
+
+```
