@@ -22,7 +22,7 @@ module.exports = {
           { text: '设计模式', link: '/learn/pattern/' },
         ]
       },
-      { text: 'Code Guide', link: '/codeguide/' },
+      { text: 'Guide', link: '/guide/' },
       { text: 'About', link: '/about/' },
       { text: 'Resource', link: '/resource/' },
       { text: 'GitHub', link: 'https://github.com/wenhongjie' },
@@ -40,10 +40,11 @@ module.exports = {
         '', // pattern/readme 
       ],
       // 导航栏代码规范模块
-      '/codeguide/': [
+      '/guide/': [
         '',
         'guidecss',
-        'guidejs'
+        'guidejs',
+        'guidedesign'
       ],
       // 关于
       '/about/': [
