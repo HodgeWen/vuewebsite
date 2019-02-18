@@ -10,8 +10,10 @@
 [主页](https://wenhongjie.github.io/)  
 twitter: [@burn_sby](https://twitter.com/burn_sby)    
 Gmail: emailatwen@gmail.com
+微信: whj84412765
 
 ## 常用技术栈
+js以及es2015+   
 vue全家桶      
 webpack   
 typescript
@@ -19,3 +21,13 @@ typescript
 预处理器 sass, stylus      
 各种开源库   
 小程序      
+
+## 其他技能
+linux  
+node  
+CI  
+PR  
+react  
+
+## 关注的新技术
+flutter  
